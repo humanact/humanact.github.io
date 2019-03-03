@@ -26,6 +26,7 @@ h6 {
 }
 
 p {
+  font-family: "Palatino", Times, serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px;
@@ -124,12 +125,13 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/humanact-horizontal.png") no-repeat bottom center scroll;
+  background: url("../img/humanact-horizontal.png") no-repeat bottom center scroll ;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size:contain;
+  background-position:center;
 }
 
 .masthead .intro-body {
@@ -191,7 +193,25 @@ a:focus, a:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size:cover;
+  background-position:center;
+}
+
+.spotify-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 60%;
+  height: 400px;
+
+}
+
+.spotify-widget {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 #map {
