@@ -164,7 +164,8 @@ a:focus, a:hover {
   font-size: 26px;
   width: 55px;
   height: 55px;
-  margin-top: 410px;
+  margin-top: 610px;
+  margin-bottom: 10px;
   line-height: 45px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
