@@ -92,6 +92,7 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 20px;
@@ -118,19 +119,23 @@ a:focus, a:hover {
   }
 }
 
+.logo {
+  width: 200px;
+  height: auto;
+}
+
 .masthead {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: inherit;
   text-align: center;
-  color: white;
-  background: url("../img/cover.png") no-repeat bottom center scroll ;
+  background: url("../img/cover-mobile.png") no-repeat bottom center scroll ;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:contain;
+  background-size:cover;
   background-position:center;
 }
 
@@ -147,10 +152,18 @@ a:focus, a:hover {
   font-size: 18px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .masthead {
     height: 100%;
     padding: 0;
+    background: url("../img/cover.png") no-repeat bottom center scroll ;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-position:center;
+
   }
   .masthead .intro-body .brand-heading {
     font-size: 100px;
@@ -164,8 +177,8 @@ a:focus, a:hover {
   font-size: 26px;
   width: 55px;
   height: 55px;
-  margin-top: 610px;
-  margin-bottom: 10px;
+  margin-top: 510px;
+  margin-bottom: 30px;
   line-height: 45px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
